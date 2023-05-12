@@ -1,11 +1,14 @@
 {
   "name": "decorahub-commons",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Commons for Decorahub projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "class-validator": "^0.14.0"
+  }
 }
