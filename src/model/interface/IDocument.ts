@@ -1,7 +1,5 @@
-import { DocumentTypeEnum } from 'src/enum/DocumentTypeEnum';
-
 export interface IDocument {
-    type: DocumentTypeEnum;
+    type: string;
     number: string;
     origin: string;
     expirationDate: Date;

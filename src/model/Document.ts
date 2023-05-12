@@ -1,12 +1,11 @@
 import { IsDateString, IsIn, IsNumberString, IsOptional, MaxLength, MinLength } from 'class-validator';
-import { DocumentTypeEnum } from 'src/enum/DocumentTypeEnum';
 
 import { IDocument } from './interface/IDocument';
 
 export class Document implements IDocument {
     
     @IsIn(['CPF', 'CNPJ', 'PASSPORT'])
-    type: DocumentTypeEnum;
+    type: string;
 
     @IsNumberString()
     @MinLength(6, { message: 'Documento precisa ter no mínimo 6 caracteres' })
