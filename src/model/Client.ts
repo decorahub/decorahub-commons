@@ -1,8 +1,8 @@
 import { Address } from './Address';
 import { Document } from './Document';
-import { IUser } from './interface/IUser';
+import { IClient } from './interface/IClient';
 
-export class User implements IUser{
+export class User implements IClient{
     uid: string;
     nickName: string;
     fullName: string;

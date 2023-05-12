@@ -1,7 +1,7 @@
 import { IAddress } from './IAddress';
 import { IDocument } from './IDocument';
 
-export interface IUser {
+export interface IClient {
     uid: string;
     nickName: string;
     fullName: string;
