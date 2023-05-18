@@ -2,7 +2,7 @@ import { IsDateString, IsIn, IsNumberString, IsOptional, MaxLength, MinLength } 
 
 import { IDocument } from './interface/IDocument';
 
-export class Document implements IDocument {
+export class DocumentModel implements IDocument {
     
     @IsIn(['CPF', 'CNPJ', 'PASSPORT'])
     type: string;

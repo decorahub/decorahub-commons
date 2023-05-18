@@ -1,10 +1,11 @@
 import { IsDateString, IsFirebasePushId, IsIn, IsOptional, MaxLength, MinLength } from 'class-validator';
 
-import { Address } from './Address';
-import { Document } from './Document';
+import { AddressModel } from './Address.model';
+import { DocumentModel } from './Document.model';
 import { IArchitect } from './interface/IArchitect';
 
-export class Architect implements IArchitect {
+
+export class ArchitectModel implements IArchitect {
     
     @IsFirebasePushId()
     uid: string;
@@ -44,8 +45,8 @@ export class Architect implements IArchitect {
     gender: string;
 
     @IsOptional()
-    document: Document;
+    document: DocumentModel;
 
     @IsOptional()
-    address: Address;
+    address: AddressModel;
 }

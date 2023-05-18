@@ -2,7 +2,7 @@ import { IsFirebasePushId, MaxLength, MinLength } from 'class-validator';
 
 import { IUser } from './interface/IUser';
 
-export class User implements IUser {
+export class UserModel implements IUser {
     
     @IsFirebasePushId()
     @MinLength(10, { message: 'Uid precisa ter no mínimo 10 caracteres' })

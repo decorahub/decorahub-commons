@@ -1,6 +1,6 @@
 import { IAddress } from './interface/IAddress';
 
-export class Address implements IAddress {
+export class AddressModel implements IAddress {
     name: string;
     street: string;
     number: string;
