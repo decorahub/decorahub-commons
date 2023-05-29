@@ -1,4 +1,4 @@
-export interface IDocument {
+export interface IUserDocument {
     type: string;
     number: string;
     origin: string;

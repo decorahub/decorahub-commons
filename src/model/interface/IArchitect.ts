@@ -1,13 +1,10 @@
 import { IAddress } from './IAddress';
-import { IDocument } from './IDocument';
+import { IUserDocument } from './IUserDocument';
 
 export interface IArchitect {
     uid: string;
     nickName: string;
-    fullName: string;
-    email: string;
-    cellphone: string;
-    document: IDocument;
+    document: IUserDocument;
     address: IAddress;
     birthday: Date;
     gender: string;

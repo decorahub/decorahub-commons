@@ -1,8 +1,8 @@
 import { IsDateString, IsIn, IsNumberString, IsOptional, MaxLength, MinLength } from 'class-validator';
 
-import { IDocument } from './interface/IDocument';
+import { IUserDocument } from './interface/IUserDocument';
 
-export class DocumentModel implements IDocument {
+export class UserDocumentModel implements IUserDocument {
     
     @IsIn(['CPF', 'CNPJ', 'PASSPORT'])
     type: string;
