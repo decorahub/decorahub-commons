@@ -1,8 +1,7 @@
+import { AddressModel } from '@rootCommons/model/Address.model';
+import { IArchitect } from '@rootCommons/model/interface/IArchitect';
+import { UserDocumentModel } from '@rootCommons/model/UserDocument.model';
 import { IsDateString, IsFirebasePushId, IsIn, IsOptional, MaxLength, MinLength } from 'class-validator';
-
-import { AddressModel } from './Address.model';
-import { IArchitect } from './interface/IArchitect';
-import { UserDocumentModel } from './UserDocument.model';
 
 
 export class ArchitectModel implements IArchitect {

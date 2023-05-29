@@ -1,6 +1,5 @@
+import { IClient } from '@rootCommons/model/interface/IClient';
 import { IsDateString, IsFirebasePushId, IsIn, IsOptional, MaxLength, MinLength } from 'class-validator';
-
-import { IClient } from './interface/IClient';
 
 export class ClientModel implements IClient{
 

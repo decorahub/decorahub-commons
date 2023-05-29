@@ -1,4 +1,4 @@
-import { IAddress } from './interface/IAddress';
+import { IAddress } from '@rootCommons/model/interface/IAddress';
 
 export class AddressModel implements IAddress {
     name: string;

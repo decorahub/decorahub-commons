@@ -1,6 +1,5 @@
+import { IUserDocument } from '@rootCommons/model/interface/IUserDocument';
 import { IsDateString, IsIn, IsNumberString, IsOptional, MaxLength, MinLength } from 'class-validator';
-
-import { IUserDocument } from './interface/IUserDocument';
 
 export class UserDocumentModel implements IUserDocument {
     

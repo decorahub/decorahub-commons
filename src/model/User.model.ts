@@ -1,6 +1,5 @@
+import { IUser } from '@rootCommons/model/interface/IUser';
 import { IsFirebasePushId, MaxLength, MinLength } from 'class-validator';
-
-import { IUser } from './interface/IUser';
 
 export class UserModel implements IUser {
     
