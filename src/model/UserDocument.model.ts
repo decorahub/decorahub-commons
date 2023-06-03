@@ -3,7 +3,7 @@ import { IsDateString, IsIn, IsNumberString, IsOptional, MaxLength, MinLength } 
 
 export class UserDocumentModel implements IUserDocument {
     
-    @IsIn(['CPF', 'CNPJ', 'PASSPORT'])
+    @IsIn(['CPF', 'CNPJ'])
     type: string;
 
     @IsNumberString()

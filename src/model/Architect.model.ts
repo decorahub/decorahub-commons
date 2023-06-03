@@ -11,7 +11,7 @@ export class ArchitectModel implements IArchitect {
 
     @IsOptional()
     @MinLength(3, { message: 'Nome precisa ter no mínimo 3 caracteres' })
-    @MaxLength(30, {
+    @MaxLength(50, {
         message: 'Nome precisa ter no máximo 30 caracteres',
     })
     nickName: string;
@@ -29,4 +29,6 @@ export class ArchitectModel implements IArchitect {
 
     @IsOptional()
     address: AddressModel;
+
+    signedContract: boolean;
 }
