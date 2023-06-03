@@ -1,5 +1,6 @@
-import { IAddress } from './IAddress';
-import { IUserDocument } from './IUserDocument';
+import { IAddress } from '@decorahub-commons/model/interface/IAddress';
+import { IUserDocument } from '@decorahub-commons/model/interface/IUserDocument';
+
 
 export interface IArchitect {
     uid: string;

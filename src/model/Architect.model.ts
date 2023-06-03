@@ -1,8 +1,7 @@
-import { AddressModel } from '@rootCommons/model/Address.model';
-import { IArchitect } from '@rootCommons/model/interface/IArchitect';
-import { UserDocumentModel } from '@rootCommons/model/UserDocument.model';
+import { AddressModel } from '@decorahub-commons/model/Address.model';
+import { IArchitect } from '@decorahub-commons/model/interface/IArchitect';
+import { UserDocumentModel } from '@decorahub-commons/model/UserDocument.model';
 import { IsDateString, IsFirebasePushId, IsIn, IsOptional, MaxLength, MinLength } from 'class-validator';
-
 
 export class ArchitectModel implements IArchitect {
     

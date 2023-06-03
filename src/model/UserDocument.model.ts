@@ -1,5 +1,6 @@
-import { IUserDocument } from '@rootCommons/model/interface/IUserDocument';
+import { IUserDocument } from '@decorahub-commons/model/interface/IUserDocument';
 import { IsDateString, IsIn, IsNumberString, IsOptional, MaxLength, MinLength } from 'class-validator';
+
 
 export class UserDocumentModel implements IUserDocument {
     

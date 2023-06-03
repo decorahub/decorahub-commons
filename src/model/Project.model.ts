@@ -1,4 +1,4 @@
-import { IProject } from '@rootCommons/model/interface/IProject';
+import { IProject } from '@decorahub-commons/model/interface/IProject';
 
 export class ProjectModel implements IProject{
     uid: string;

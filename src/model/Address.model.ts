@@ -1,4 +1,4 @@
-import { IAddress } from '@rootCommons/model/interface/IAddress';
+import { IAddress } from '@decorahub-commons/model/interface/IAddress';
 
 export class AddressModel implements IAddress {
     name: string;

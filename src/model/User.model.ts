@@ -1,4 +1,4 @@
-import { IUser } from '@rootCommons/model/interface/IUser';
+import { IUser } from '@decorahub-commons/model/interface/IUser';
 import { IsFirebasePushId, MaxLength, MinLength } from 'class-validator';
 
 export class UserModel implements IUser {

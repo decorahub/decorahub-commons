@@ -1,4 +1,4 @@
-import { IClient } from '@rootCommons/model/interface/IClient';
+import { IClient } from '@decorahub-commons/model/interface/IClient';
 import { IsDateString, IsFirebasePushId, IsIn, IsOptional, MaxLength, MinLength } from 'class-validator';
 
 export class ClientModel implements IClient{
